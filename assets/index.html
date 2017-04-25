@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<h1>Ingresa tus datos</h1>
+	<form>
+	<p> 
+	<label for="">Nombre completo:</label><br>
+		<input type="text" title= "ej: Antonella Flores" required></p>
+	<p>
+	<label for="">Número de teléfono:</label><br>
+		<input type="tel" name="telefono" pattern="[0-9]{9}" title="ej: 999999999" required></p>
+	<p>
+	<label for="">Correo electrónico:</label><br>
+		<input type="email" name="email" pattern="[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*@[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{1,5}" title= "ej: juanperez@kmail.com" required></p>
+	<p>
+	<label for="">Contraseña:</label><br>
+	<input type="password" name="pw" pattern=".{6,}" title="mínimo 6 caracteres" required></p>
+	<p>
+	<label for="">Escoge tu escritor favorito</label>
+        <select>
+        <option>Selecciona</option>
+        <option>Edgar Allan Poe</option>
+        <option>H. P. Lovecraft</option>
+        <option>Stephen King</option>
+        <option>Ray Bradbury</option>
+      	</select>
+	<p>
+        <input type="submit" name="" value="Enviar"></p>
+	</form>
+	<script src="js/javascript.js"></script>
+</body>
+</html>
